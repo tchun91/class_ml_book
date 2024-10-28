@@ -1,0 +1,41 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+
+parts:
+  - caption: Week 1
+    chapters:
+      - file: week1/1.NaiveBayes
+      - file: week1/2.KNN
+      - file: week1/Linear_Regression
+      - file: week1/Logistic_Regression
+      - file: week1/Regularization
+
+  - caption: Week 2
+    chapters:
+      - file: week2/1.DecisionTree
+      - file: week2/2.PCA
+      - file: week2/3.Hierarchical Clustering
+      - file: week2/Gradient Boosting
+      - file: week2/Kmeans
+
+  - caption: Week 3
+    chapters:
+      - file: week3/1.svm
+      - file: week3/CatBoost
+      - file: week3/Random_Forest
+
+  - caption: Week 4
+    chapters:
+      - file: week4/1.collaborative_filtering
+      - file: week4/Market_Basket_Analysis
+      - file: week4/NDCG
+      - file: week4/Semantic Search
+
+  - caption: Week 5
+    chapters:
+      - file: week5/3. finetune_practice
+      - file: week5/TF-IDF, BoW, Faiss
+      - file: week5/Transformer,_LoRA
